@@ -1,0 +1,69 @@
+table, th ,td{
+    border: 1px solid;
+    margin: 30px;
+}
+th{
+    font-size: 20px;
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+
+}
+td{
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+}
+img:hover{
+    animation-name: shake1;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+}
+@keyframes shake1{
+    from{transform:scale(0);}
+    to{transform:scale(1);}
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin: 20px;
+    animation:anim 3s infinite ;
+}
+@keyframes anim{
+    from{background-color: aqua;}
+    to{background-color: yellow;}
+}
+h1{
+    text-align: center;
+    padding-top: 80px;
+}
+.container{
+    width: 100%;
+    height: 210px;
+    background-color: bisque;
+}
+p{
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation:vijay 3s infinite ;
+}
+@keyframes vijay{
+    10%{color: aqua;}
+    10%{color: rgb(11, 10, 19);}
+    10%{color: rgb(14, 108, 66);}
+    10%{color: rgb(176, 18, 36);}
+    10%{color: rgb(20, 154, 38);}
+}
+.container:hover{
+    background-image: url(https://images.pexels.com/photos/208745/pexels-photo-208745.jpeg?auto=compress&cs=tinysrgb&w=400) ;
+    background-size: cover;
+    
+}
+img{
+    padding-right: 0px;
+    
+}
